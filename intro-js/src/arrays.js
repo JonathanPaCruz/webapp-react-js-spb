@@ -15,20 +15,7 @@ product.forEach((el) => {
 });
 
 // Método 3.-
-console.log("---Método 3---");
 for (const prod of product) {
   console.log(prod);
 }
 
-//Método clásico
-console.log("---Método Clásico---");
-for (let i = 0; i < product.length; i++) {
-  const element = product[i];
-  console.log(element);
-}
-function main() {
-  console.log("hola");
-}
-main();
-//*click @ $ <= !=
-//*console.log(main); txt-type
